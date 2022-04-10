@@ -24,17 +24,18 @@ To run:
 - Establish `conda` environment using `conda create qkd-env python=3.9`
 - Test that QNE and NetQASM are availble
 
-`git clone https://github.com/meltyness/qkd-strap`
+`git clone https://github.com/lucasarens/qkd`
 
-`qne application init qkd-strap`
+`qne application init qkd`
 
-`cd qkd-strap`
+`cd qkd`
 
-`qne experiment create exp qkd-strap randstad`
+`qne experiment create exp qkd randstad`
 
-`qne experiment run exp --timeout=30`
+To see the results on your terminal: `qne experiment results exp --show`
 
-`vim exp/raw_output/LAST/results.yaml`
+or in your favorite editor: `vim exp/raw_output/LAST/results.yaml`
+
 
 Targeted results are returned in the dict as `secret_key`
 
