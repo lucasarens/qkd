@@ -41,7 +41,7 @@ Targeted results are returned in the dict as `secret_key`
 
 Detailed comments in `app_alice.py` describe the full procedure, and variable involved.
 
-See also `application.json` and `exp2/` .json files for details about how the application is being run, and the network it's being simulated on. Details for how to modify this configuration are: [in the QNE-ADK docs](https://www.quantum-network.com/knowledge-base/qne-adk/)
+See also `application.json` and `exp/` .json files for details about how the application is being run, and the network it's being simulated on. Details for how to modify this configuration are: [in the QNE-ADK docs](https://www.quantum-network.com/knowledge-base/qne-adk/)
 
 ### Debugging
 In order to facilitate a more in-depth understanding of the proceedings, ensure that you have NetQASM installed based on aforementioned instructions, and use:
